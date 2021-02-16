@@ -1,2 +1,1 @@
-learning redux /n
-building app on js w/o frameworks or libraries
+Learning redux. Building app on js w/o frameworks or libraries
