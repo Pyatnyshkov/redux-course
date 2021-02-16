@@ -1,0 +1,37 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pyatnyshkov/redux-course.git"
+  },
+  "keywords": [
+    "redux",
+    "webpack"
+  ],
+  "author": "Pyatnyshkov NS pyatnyshkov@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pyatnyshkov/redux-course/issues"
+  },
+  "homepage": "https://github.com/Pyatnyshkov/redux-course#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.2",
+    "html-webpack-plugin": "^5.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  }
+}
